@@ -44,7 +44,9 @@ export default function RootLayout({
             </li>
           </ul>
         </header>
-        {children}
+        <div className="mt-[20px] px-2">
+          {children}
+        </div>
       </body>
     </html>
   );
