@@ -44,7 +44,7 @@ export default function RootLayout({
             </li>
           </ul>
         </header>
-        <div className="mt-[20px] px-2">
+        <div className="mt-[20px] px-2 pb-10">
           {children}
         </div>
       </body>
