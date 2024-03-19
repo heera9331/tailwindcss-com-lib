@@ -42,6 +42,11 @@ export default function RootLayout({
                 Buttons
               </Link>
             </li>
+            <li className="text-lg text-white bg-gray-900 rounded-sm px-2 py-1 shadow-md font-semibold hover:shadow-sm hover:shadow-white">
+              <Link href={'/sitemap'} className="">
+                Sitemap
+              </Link>
+            </li>
           </ul>
         </header>
         <div className="mt-[20px] px-2 pb-10">
