@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
-import { Breadcrumbs } from "@/components"
-import { usePathname } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Tailwindcss Components Library",
@@ -16,9 +14,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-  const path = usePathname();
-  console.log(path);
 
   return (
     <html lang="en">

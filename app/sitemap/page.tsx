@@ -1,9 +1,10 @@
 import Link from "next/link";
-
+import { Breadcrumbs } from "@/components"
 const Page = () => {
 
     return (
         <div>
+            <Breadcrumbs />
             {/* page heading */}
             <h2 className="text-2xl font-semibold">SiteMap</h2>
             <div>

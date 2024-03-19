@@ -1,6 +1,9 @@
+import { Breadcrumbs } from "@/components"
+
 const Page = () => {
     return (
         <div >
+            <Breadcrumbs />
             <div className="px-2 flex flex-wrap gap-2">
                 {/* form1 */}
                 <div className="max-w-[420px] p-4 border w-full rounded-md bg-gray-100">
@@ -58,7 +61,7 @@ const Page = () => {
                         </button>
                     </div>
                 </div>
-            </div>
+                B</div>
 
             {/* form2 */}
 
