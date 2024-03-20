@@ -88,6 +88,32 @@ const Page = () => {
                 </div>
             </div>
 
+            <div className="border-2 p-4 m-2 rounded-md">
+                {/* heading */}
+                <h2>Input Form Elements</h2>
+                <div className="flex flex-col gap-1 py-2">
+                    <label htmlFor="userSearch">Search</label>
+                    <div className="flex gap-2">
+                        <input type="text" name="userSearch" placeholder="Search here..."
+                            className="border-2 border-stone-400 p-1 rounded-sm"
+                        />
+                        <button className="bg-stone-800 text-white py-1 px-2 rounded-sm hover:bg-stone-700">
+                            Search
+                        </button>
+                    </div>
+                </div>
+                <div className="flex flex-col gap-1 py-2">
+                    <label htmlFor="userSearch">Search</label>
+                    <div className="flex gap-2">
+                        <input type="text" name="userSearch" placeholder="Search here..."
+                            className="border-2 border-stone-400 p-1 rounded-sm"
+                        />
+                        <button className="border-stone-800 border-2 text-stone-800 py-1 px-2 rounded-sm hover:bg-gray-100">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
