@@ -6,7 +6,7 @@ const Page = () => {
             <Breadcrumbs />
             <div className="px-2 flex flex-wrap gap-2">
                 {/* form1 */}
-                <div className="max-w-[420px] p-4 border w-full rounded-md bg-gray-100">
+                <div className="max-w-[420px] p-4 border w-full rounded-md bg-gray-100 hover:shadow-md">
                     <div className="py-6">
                         <div className="flex flex-col m-1">
                             <label htmlFor="username">Username</label>
@@ -25,7 +25,7 @@ const Page = () => {
                 </div>
                 {/* form2 */}
 
-                <div className="max-w-[420px] p-4 border w-full bg-gray-800 text-gray-200 rounded-md">
+                <div className="max-w-[420px] p-4 border w-full bg-gray-800 text-gray-200 rounded-md hover:shadow-md">
                     <div className="py-6">
                         <div className="flex flex-col m-1">
                             <label htmlFor="username">Username</label>
@@ -44,7 +44,7 @@ const Page = () => {
                 </div>
                 {/* form3 */}
 
-                <div className="max-w-[420px] p-4 border w-full bg-slate-800 text-gray-200 rounded-md">
+                <div className="max-w-[420px] p-4 border w-full bg-slate-800 text-gray-200 rounded-md hover:shadow-md">
                     <div className="py-6">
                         <div className="flex flex-col m-1">
                             <label htmlFor="username">Username</label>
@@ -65,7 +65,7 @@ const Page = () => {
 
             {/* form2 */}
 
-            <div className="max-w-[420px] border-2 p-4 m-2 rounded-md">
+            <div className="max-w-[420px] border-2 p-4 m-2 rounded-md hover:shadow-md">
                 <div className="flex flex-col py-2">
                     <label htmlFor="username">Username</label>
                     <input type="text" name="username" placeholder="$ 0.0"
@@ -88,7 +88,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="border-2 p-4 m-2 rounded-md">
+            <div className="border-2 p-4 m-2 rounded-md hover:shadow-md">
                 {/* heading */}
                 <h2>Input Form Elements</h2>
                 <div className="flex flex-col gap-1 py-2">
